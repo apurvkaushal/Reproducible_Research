@@ -2,7 +2,7 @@
 title: "Activity_Tracking"
 author: "Apurv Kaushal"
 date: "16 December 2018"
-output: html_document
+output: md_document
 ---
 
 ```{r setup, include=FALSE}
@@ -19,7 +19,7 @@ This assignment makes use of data from a personal activity monitoring device. Th
 
 ## Loading & Pre Processing Data
 ```{r process}
-activities<-read.csv("activity.csv")
+activities<-read.csv("C:\\Users\\Apurv\\Desktop\\Data_Science\\activity.csv")
 str(activities)
 library(dplyr)
 numberNA<-sum(is.na(activities$steps))
